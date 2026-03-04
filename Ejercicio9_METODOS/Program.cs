@@ -5,15 +5,16 @@
         static void Main(string[] args)
         {
             Saludo();
+            Saludo("Sebastián");
         }
 
         static void Saludo()
         {
-            Console.WriteLine($"Buenos días 3ro TI");
+            Console.WriteLine("Buenos días 3ro TI");
         }
-         static int Sumar(int a, int b)
+         static void Saludo(string nombre)
         {
-            return a + b;
+            Console.WriteLine($"Buenos días{nombre}");
         }   
     }
 }
