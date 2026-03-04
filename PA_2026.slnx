@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="Ejemplo2_OperadorCondicional/Ejemplo2_OperadorCondicional.csproj" Id="68cad5fa-8555-42e8-89e6-de4890e246a5" />
   <Project Path="Ejemplo7_CICLO-FOR/Ejercicio7_CICLO-FOR.csproj" Id="0982c863-a947-484d-b7c6-78e31b8c47bb" />
+  <Project Path="Ejercicio10_MÉTODOS CON MULTIPLES PARÁMETROS/Ejercicio10_MÉTODOS CON MULTIPLES PARÁMETROS.csproj" Id="95b9aeaa-f250-4688-b249-19d16b6eacdc" />
   <Project Path="Ejercicio3CONDICIONALIF/Ejercicio3CONDICIONALIF.csproj" Id="36603e9c-9d3d-4db2-8c47-6b035e5e4467" />
   <Project Path="Ejercicio4_SWITCH/Ejercicio4_SWITCH.csproj" Id="1fd7667d-151c-4c53-9e87-f73b81d9c3ce" />
   <Project Path="Ejercicio5_CICLOWHILE/Ejercicio5_CICLOWHILE.csproj" Id="8c65ce58-96b1-43d8-8c1f-c69b68cc9b47" />
