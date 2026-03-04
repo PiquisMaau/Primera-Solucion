@@ -1,0 +1,12 @@
+<Solution>
+  <Project Path="Ejemplo2_OperadorCondicional/Ejemplo2_OperadorCondicional.csproj" Id="68cad5fa-8555-42e8-89e6-de4890e246a5" />
+  <Project Path="Ejemplo7_CICLO-FOR/Ejercicio7_CICLO-FOR.csproj" Id="0982c863-a947-484d-b7c6-78e31b8c47bb" />
+  <Project Path="Ejercicio3CONDICIONALIF/Ejercicio3CONDICIONALIF.csproj" Id="36603e9c-9d3d-4db2-8c47-6b035e5e4467" />
+  <Project Path="Ejercicio4_SWITCH/Ejercicio4_SWITCH.csproj" Id="1fd7667d-151c-4c53-9e87-f73b81d9c3ce" />
+  <Project Path="Ejercicio5_CICLOWHILE/Ejercicio5_CICLOWHILE.csproj" Id="8c65ce58-96b1-43d8-8c1f-c69b68cc9b47" />
+  <Project Path="Ejercicio6_DOWHILE/Ejercicio6_DOWHILE.csproj" Id="7e0a829c-f04c-40b4-b2c1-cc69a8a49405" />
+  <Project Path="Ejercicio8_FOR-EACH/Ejercicio8_FOR-EACH.csproj" Id="3ea9a797-b1e4-455c-9d37-74ca0ce51aae" />
+  <Project Path="Test2NetCORE/Test2NetCORE.csproj" />
+  <Project Path="Test3NETCORE/Test3NETCORE.csproj" />
+  <Project Path="TestConsola1/TestConsola1.csproj" Id="becce3a0-3daa-4454-89c0-fbcbb1c55720" />
+</Solution>
