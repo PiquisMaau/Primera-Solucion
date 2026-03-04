@@ -6,12 +6,16 @@
         {
             Saludo();
             Saludo("Sebastián");
-
             //List<int> numerosGanadores = DevolverNumerosGanadores();
-            foreach (int ganador in DevolverNumerosGanadores())
+            //foreach (int ganador in DevolverNumerosGanadores())
+            //{
+            //    Console.WriteLine(ganador);
+            //}
+            for (int i = 0; i < 12; i++)
             {
-                Console.WriteLine(ganador);
+                Console.WriteLine(DevolverNumerosGanadores()[0]);
             }
+
         }
 
         static void Saludo()
@@ -22,10 +26,21 @@
         {
             Console.WriteLine($"Buenos días {nombre}");
         }
-        
+        /// <summary>
+        /// Método que devuelve los numeros ganadores del sorteo del pozo millonario
+        /// el proceso genera números aleatorios entre 1 y 25.
+        /// </summary>
+        /// <returns></returns>
         static List<int> DevolverNumerosGanadores()
         {
-            List<int> listaNumerosGanadores = new List<int>() {1,3,5,7,9,11,13,15,17,19};
+            List<int> listaNumerosGanadores = new List<int>();
+            Random random = new Random();
+            listaNumerosGanadores.Add(random.Next(1, 26));
+
+            for (int i = 0; i < 12; i++)
+            {
+                int numeroAleatorio = random.Next(1, 26);
+            }
             return listaNumerosGanadores;
         }
     }
