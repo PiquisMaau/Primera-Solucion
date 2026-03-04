@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Saludo();
         }
+
+        static void Saludo()
+        {
+            Console.WriteLine($"Buenos días 3ro TI");
+        }
+         static int Sumar(int a, int b)
+        {
+            return a + b;
+        }   
     }
 }
