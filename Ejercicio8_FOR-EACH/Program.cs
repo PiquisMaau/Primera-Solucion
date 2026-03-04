@@ -18,6 +18,13 @@
             Año = año;
             Precio = precio;
         }
+
+        override public string ToString() //sobrescribir el método ToString para mostrar la información del vehículo de manera personalizada
+        {
+            return $"Marca: {Marca}, Modelo: {Modelo}, Año: {Año}, Precio: {Precio}";
+        }
+
+
     }
     internal class Program
     {
@@ -42,10 +49,70 @@
             VehiculosInstitucionles vehiculo4 = new VehiculosInstitucionles("Ford", "Focus", 2021, 16000);
             VehiculosInstitucionles vehiculo5 = new VehiculosInstitucionles("Chevrolet", "Cruze", 2020, 14000);
 
-            foreach (var elemento in listaComiteCum)
-            {
-                Console.WriteLine(elemento);
+            List<VehiculosInstitucionles> listaVehiculosUTA = new List<VehiculosInstitucionles>();
+            listaVehiculosUTA.Add(vehiculo1);
+            listaVehiculosUTA.Add(vehiculo2);
+            listaVehiculosUTA.Add(vehiculo3);
+            listaVehiculosUTA.Add(vehiculo4);
+            listaVehiculosUTA.Add(vehiculo5);
+
+
+
+            //foreach (var elemento in listaComiteCum)
+            //{
+            //    Console.WriteLine(elemento);
+            //}
+
+
+            //1) Imprimir todos los vehiculos de la UTA
+            foreach (var vehiculo in listaVehiculosUTA)
+                {
+                    Console.WriteLine($"Marca: {vehiculo.Marca}, Modelo: {vehiculo.Modelo}, Año: {vehiculo.Año}, Precio: {vehiculo.Precio}");
+                Console.WriteLine("Con el ToString: "+vehiculo.ToString());
             }
+
+            //2)Cuanto suman todos los precios de los vehículos de la UTA
+            double suma = 0;
+            foreach (var vehiculo in listaVehiculosUTA)
+            {
+                suma += vehiculo.Precio;
+                
+            }
+            Console.WriteLine($"Precio: {suma}");
+
+            //3)Cual es el promedio de los precios de los vehículos de la UTA
+
+            foreach (var vehiculo in listaVehiculosUTA)
+            {
+                suma += vehiculo.Precio;
+
+            }
+            Console.WriteLine($"Precio: {suma/listaVehiculosUTA.Count}");
+            //4)Cuantos vehículos de la UTA tienen menos de 5 años de antigüedad
+            int contador = 0;
+            foreach (var vehiculo in listaVehiculosUTA)
+            {
+                if (vehiculo.Año >= 5)
+                {
+                    contador++;
+                }
+
+            }
+            Console.WriteLine($"Los vehiculos con menos de 5 años son: {contador}");
+
+            //5)Cual es el vehiculo mas barato de la UTA
+                 double precioMasBarato = 0;
+            foreach (var vehiculo in listaVehiculosUTA)
+            {
+                precioMasBarato = vehiculo.Precio;
+                while (precioMasBarato > vehiculo.Precio)
+                {
+                    precioMasBarato = vehiculo.Precio;
+                }   
+
+            }
+            Console.WriteLine($"Precio mas barato: {precioMasBarato}");
+            //6)Cual es el vehiculo mas caro de la UTA
 
         }
     }
