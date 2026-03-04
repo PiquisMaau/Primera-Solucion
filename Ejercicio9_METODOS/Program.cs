@@ -7,8 +7,8 @@
             Saludo();
             Saludo("Sebastián");
 
-            List<int> numerosGanadores = DevolverNumerosGanadores();
-            foreach (int ganador in numerosGanadores)
+            //List<int> numerosGanadores = DevolverNumerosGanadores();
+            foreach (int ganador in DevolverNumerosGanadores())
             {
                 Console.WriteLine(ganador);
             }
