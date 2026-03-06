@@ -18,8 +18,8 @@ namespace Ejercicio14_ClienteConsola
             Console.WriteLine("La longitud es= {0}", cadenas.LongitudCadena("Mauro"));
 
             Trigonometria trigonometria = new Trigonometria();
-            Console.WriteLine("El seno es= {0}", trigonometria.CalcularSeno(30));
-            Console.WriteLine("El coseno es= {0}", trigonometria.calcularCoseno(30));
+            Console.WriteLine("El seno es= {0}", trigonometria.CalcularSeno(45));
+            Console.WriteLine("El coseno es= {0}", trigonometria.calcularCoseno(45));
             Console.Read();
 
         }

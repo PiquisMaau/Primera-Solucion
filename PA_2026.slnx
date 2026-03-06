@@ -6,12 +6,14 @@
   <Project Path="Ejercicio13_CONSTRUCTORES/Ejercicio13_CONSTRUCTORES.csproj" Id="675c3652-cb39-4c2d-87e9-0a926e97ca6b" />
   <Project Path="Ejercicio14_Biblioteca_Clases/Ejercicio14_Biblioteca_Clases.csproj" Id="851567a7-b2b6-4e70-baa0-1d10818e3eb4" />
   <Project Path="Ejercicio14_ClienteConsola/Ejercicio14_ClienteConsola.csproj" Id="09a28f0e-f029-4c3a-b9a2-97ba568c90f2" />
+  <Project Path="Ejercicio15_VALIDACIONES/Ejercicio15_VALIDACIONES.csproj" Id="df41f612-4bbf-4826-81d9-148ee19b2c86" />
   <Project Path="Ejercicio3CONDICIONALIF/Ejercicio3CONDICIONALIF.csproj" Id="36603e9c-9d3d-4db2-8c47-6b035e5e4467" />
   <Project Path="Ejercicio4_SWITCH/Ejercicio4_SWITCH.csproj" Id="1fd7667d-151c-4c53-9e87-f73b81d9c3ce" />
   <Project Path="Ejercicio5_CICLOWHILE/Ejercicio5_CICLOWHILE.csproj" Id="8c65ce58-96b1-43d8-8c1f-c69b68cc9b47" />
   <Project Path="Ejercicio6_DOWHILE/Ejercicio6_DOWHILE.csproj" Id="7e0a829c-f04c-40b4-b2c1-cc69a8a49405" />
   <Project Path="Ejercicio8_FOR-EACH/Ejercicio8_FOR-EACH.csproj" Id="3ea9a797-b1e4-455c-9d37-74ca0ce51aae" />
   <Project Path="Ejercicio9_METODOS/Ejercicio9_METODOS.csproj" Id="e9a2c10f-23e1-48be-ab3e-6637063bb8c6" />
+  <Project Path="Elercicio14_ClienteVisualBasic/Elercicio14_ClienteVisualBasic.vbproj" Id="3156a832-1ea6-4039-8314-0752c971eb93" />
   <Project Path="Form1/Ejercicio11_FORM1.csproj" Id="882100c4-8b54-4bb7-b064-997b615efdee" />
   <Project Path="Test2NetCORE/Test2NetCORE.csproj" />
   <Project Path="Test3NETCORE/Test3NETCORE.csproj" />
