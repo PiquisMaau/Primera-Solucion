@@ -12,12 +12,12 @@ namespace Ejercicio14_Biblioteca_Clases
 
         public double CalcularSeno(double angulo)
         {
-            return Math.Sin(angulo * (Math.PI / 180));   //ver si la funcion recibe como parametro angulos en radianes
+            return Math.Sin(angulo * (Math.PI / 180.0));   //ver si la funcion recibe como parametro angulos en radianes
         }
 
         public double calcularCoseno(double angulo)
         {
-            return Math.Cos(angulo * (Math.PI/180));
+            return Math.Cos(angulo * (Math.PI/180.0));
         }
 
     }
