@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Ejercicio15_VALIDACIONES
 {
-    public partial class Form1 : Form
+    partial class Form1 : Form  //":" significa herencia
     {
         public Form1()
         {
@@ -19,6 +19,15 @@ namespace Ejercicio15_VALIDACIONES
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void caldodepata(object sender, KeyPressEventArgs e) //este metodo es textBox_KeyPress1
+        {
+            if (!(char.IsLetter(e.KeyChar)){
+                e.Handled = true;
+                return
+            }
 
         }
     }
