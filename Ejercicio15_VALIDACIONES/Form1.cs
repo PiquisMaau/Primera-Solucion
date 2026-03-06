@@ -24,11 +24,29 @@ namespace Ejercicio15_VALIDACIONES
 
         private void caldodepata(object sender, KeyPressEventArgs e) //este metodo es textBox_KeyPress1
         {
-            if (!(char.IsLetter(e.KeyChar)){
+            if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back)){
                 e.Handled = true;
-                return
+                return;
             }
 
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsDigit(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsLetterOrDigit(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                e.Handled = true;
+                return;
+            }
         }
     }
 }
