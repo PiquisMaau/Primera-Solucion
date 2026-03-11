@@ -58,18 +58,19 @@ namespace Ejercicio16_VECTORES
             //CargarCalificaciones(calificaciones);
             //TODO: PrEGUNTAR QUE TIPO DE CARGA
             //M O m -> mANUAL, A O a  ->AUTOMATICO
-            Console.WriteLine("como deseas cargar el vector: (M/A)");
-            string tipoCarga = Console.ReadLine();
-            if (tipoCarga.ToUpper() == "M")
-            {
-                CargarCalificaciones(calificaciones);
-
-            }
-            else if (tipoCarga.ToUpper() == "A")
-            {
-                CargarconRandom(calificaciones, r);
-
-            }
+            string tipoCarga = "";
+            do {
+                Console.WriteLine("como deseas cargar el vector: (M/A)");
+                tipoCarga = Console.ReadLine();
+                if (tipoCarga.ToUpper() == "M")
+                {
+                    CargarCalificaciones(calificaciones);
+                }
+                else if (tipoCarga.ToUpper() == "A")
+                {
+                    CargarconRandom(calificaciones, r);
+                }
+            }while (!(tipoCarga.ToUpper() == "M" || tipoCarga.ToUpper() == "A"));
 
 
             Console.WriteLine("---------------------Imprimir calificaciones----------------------");
