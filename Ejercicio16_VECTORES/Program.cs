@@ -108,6 +108,12 @@ En jardín te convertiste";
                 }
             }
             Console.WriteLine($"el número de vocales es: {contadorVocales}");
+            //sacar el vector al revés
+            Console.WriteLine("------> Vector virado: ");
+            foreach (char letra in arrayLetras.Reverse())
+            {
+                Console.Write(letra);
+            }
 
 
 
