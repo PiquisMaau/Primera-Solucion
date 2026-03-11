@@ -96,7 +96,18 @@ En jardín te convertiste";
             string nuevaCadena = string.Join("-", arrayPalabras);
             Console.WriteLine($"------------------------------> Nueva cadena: {nuevaCadena}");
 
-
+            //
+            var arrayLetras = cadena.ToArray();
+            int contadorVocales = 0;
+            foreach (char letra in arrayLetras)
+                {
+                    Console.WriteLine(letra);
+                if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u')
+                {
+                    contadorVocales++;
+                }
+            }
+            Console.WriteLine($"el número de vocales es: {contadorVocales}");
 
 
 
