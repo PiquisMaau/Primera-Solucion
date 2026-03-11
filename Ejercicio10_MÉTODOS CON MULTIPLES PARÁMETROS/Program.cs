@@ -34,11 +34,11 @@
         }
         static double CalcularPromedioCalificaciones(double nota, double nota2, double nota3)
         {
-            return (nota + nota2) / 3;
+            return (nota + nota2 + nota3) / 3;
         }
         static double CalcularPromedioCalificaciones(double nota, double nota2, double nota3, double nota4)
         {
-            return (nota + nota2) / 4;
+            return (nota + nota2 + nota3 + nota4) / 4;
         }
 
     }

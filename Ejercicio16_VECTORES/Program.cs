@@ -79,16 +79,25 @@ namespace Ejercicio16_VECTORES
             Console.WriteLine("Promedio = {0}", CalcularPromedioVectorDouble(calificaciones));
 
             //-----------------------------------------------------------------------------
-            string cadena = @"Tú eres perla que surgiste
-Del más grande ignoto mar
-Y si al son de su arrullar
+            Console.WriteLine("-------------Imprimir cadena----------------");
+            //Convirtiendo una cadena a un array de palabras
+            string cadena = @"Tú eres perla que surgiste 
+Del más grande ignoto mar 
+Y si al son de su arrullar 
 En jardín te convertiste";
+            //La funcion .Replace() reemplaza un caracter por otro
             Console.WriteLine(cadena);
             string[] arrayPalabras = cadena.Split(' ');
             foreach (string palabra in arrayPalabras)
             {
-                Console.WriteLine(palabra);
+                 Console.WriteLine(palabra +" "+ palabra.Length);
             }  
+            //Convirtiendo un array a string
+            string nuevaCadena = string.Join("-", arrayPalabras);
+            Console.WriteLine($"------------------------------> Nueva cadena: {nuevaCadena}");
+
+
+
 
 
 
