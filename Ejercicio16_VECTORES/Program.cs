@@ -50,6 +50,7 @@ namespace Ejercicio16_VECTORES
             //Cargas de calificaciones
             Console.WriteLine("---------------------Carga de calificaciones----------------------");
             double[] calificaciones;
+            //TODO : Como cargar randoms desde 5 a 25
             Random r = new Random();//ésta instanciacion se hace fuera del for para que no se repitan los numeros aleatorios, si se hace dentro del for se crean varias instancias y se repiten los numeros aleatorios
             Console.WriteLine("Ingrese el numero de calificaciones: ");
             int cantidadCalificaciones = Convert.ToInt32(Console.ReadLine()); //convertir de string a entero
@@ -70,14 +71,27 @@ namespace Ejercicio16_VECTORES
                 {
                     CargarconRandom(calificaciones, r);
                 }
-            }while (!(tipoCarga.ToUpper() == "M" || tipoCarga.ToUpper() == "A"));
+            } while (!(tipoCarga.ToUpper() == "M" || tipoCarga.ToUpper() == "A"));
 
 
             Console.WriteLine("---------------------Imprimir calificaciones----------------------");
             ImprimirVectoresDouble(calificaciones);
             Console.WriteLine("Promedio = {0}", CalcularPromedioVectorDouble(calificaciones));
 
-            
+            //-----------------------------------------------------------------------------
+            string cadena = @"Tú eres perla que surgiste
+Del más grande ignoto mar
+Y si al son de su arrullar
+En jardín te convertiste";
+            Console.WriteLine(cadena);
+            string[] arrayPalabras = cadena.Split(' ');
+            foreach (string palabra in arrayPalabras)
+            {
+                Console.WriteLine(palabra);
+            }  
+
+
+
 
         }
 
