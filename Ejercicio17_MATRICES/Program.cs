@@ -24,6 +24,27 @@ namespace Ejercicio17_MATRICES
             int filas = 4, columnas = 3;
             int[,] matriz3 = new int[filas, columnas];
 
+            //Barrido de matrices
+               //HORIZONTAL (f,c)
+               for (int f = 0; f < matriz2.GetLength(0); f++)
+            {
+                       for (int c = 0; c < matriz2.GetLength(1); c++) {
+                       Console.Write(matriz2[f, c] + " ");
+                   }
+                   Console.WriteLine();
+
+            }
+            Console.WriteLine("------------------------");
+              //VERTICAL (c,f)
+              for (int c = 0; c < matriz2.GetLength(1); c++)
+            {
+                for (int f = 0; f < matriz2.GetLength(0); f++)
+                {
+                    Console.Write(matriz2[f, c] + " ");
+                }
+                Console.WriteLine();
+            }
+
             //Generar un método de carga automática 
             //Metodo de carga manual
             //Método para imprimir matriz
