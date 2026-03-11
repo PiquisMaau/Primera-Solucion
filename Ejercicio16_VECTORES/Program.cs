@@ -52,14 +52,14 @@ namespace Ejercicio16_VECTORES
             {
                 Console.WriteLine($"Ingrese la calificación {i + 1}: ");
                 calificaciones[i] = Convert.ToDouble(Console.ReadLine());
-            }
+        }
 
             Console.WriteLine("---------------------Imprimir calificaciones----------------------");
             ImprimirVectoresDouble(calificaciones);
 
 
 
-        }
+    }
         #endregion
 
         #region MÉTODOS PARA IMPRIMIR VECTORES
