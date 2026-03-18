@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C3B551BF-8E81-424C-88DE-20C5DC7EA376}</ProjectGuid>
+    <ProjectGuid>{33E233D4-C557-4B1C-80A3-D96E2A98FDCC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejemplo17_Clases</RootNamespace>
-    <AssemblyName>Ejemplo17_Clases</AssemblyName>
+    <RootNamespace>Ejercicio20_BibliotecaDeClasesProyeccionSol</RootNamespace>
+    <AssemblyName>Ejercicio20_BibliotecaDeClasesProyeccionSol</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClaseHijaInterfaceOperaciones.cs" />
-    <Compile Include="IOperaciones.cs" />
-    <Compile Include="IOperacionesV2.cs" />
-    <Compile Include="Operaciones.cs" />
-    <Compile Include="OperacionesAbstractas.cs" />
-    <Compile Include="OperacionesEstatica.cs" />
-    <Compile Include="OperacionesHijaAbstracta.cs" />
-    <Compile Include="Parciales.cs" />
-    <Compile Include="Parciales2.cs" />
+    <Compile Include="AnalisisProyeccionSol.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProyeccionSombra.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

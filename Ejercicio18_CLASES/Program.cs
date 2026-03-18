@@ -43,6 +43,16 @@ namespace Ejemplo17_Clases
             Console.WriteLine("Residuo 10 y 20 = {0}", hijaAbstracta.Residuo(numero1, numero2));
             Console.WriteLine("Potencia 10 y 20 = {0}", hijaAbstracta.Potencia(numero1, numero2));
             Console.WriteLine(hijaAbstracta.ToString());
+
+            Console.WriteLine("----------- INTERFACES ------------");
+            ClaseHijaInterfaceOperaciones operacionesInterface = new ClaseHijaInterfaceOperaciones();
+            Console.WriteLine("Sumar 10 y 20 = {0}", operacionesInterface.Sumar(numero1, numero2));
+            Console.WriteLine("Restar 10 y 20 = {0}", operacionesInterface.Restar(numero1, numero2));
+            Console.WriteLine("Multiplicar 10 y 20 = {0}", operacionesInterface.Multiplicar(numero1, numero2));
+            Console.WriteLine("Dividir 10 y 20 = {0}", operacionesInterface.Dividir(numero1, numero2));
+            Console.WriteLine("Potencia 10 y 20 = {0}", operacionesInterface.Potenciacion(numero1, numero2));
+
+
         }
     }
 }

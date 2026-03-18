@@ -10,6 +10,9 @@
   <Project Path="Ejercicio16_VECTORES/Ejercicio16_VECTORES.csproj" Id="f32e522e-65e1-413c-9a26-c741108d198d" />
   <Project Path="Ejercicio17_MATRICES/Ejercicio17_MATRICES.csproj" Id="3183dba6-25e8-4ebc-b026-aa1da6c649c6" />
   <Project Path="Ejercicio18_CLASES/Ejercicio18_CLASES.csproj" Id="c3b551bf-8e81-424c-88de-20c5dc7ea376" />
+  <Project Path="Ejercicio19_EXCEPCIONES/Ejercicio19_EXCEPCIONES.csproj" Id="92b76e21-bd9f-4aea-ab9c-1bc80707f842" />
+  <Project Path="Ejercicio19_REPASO/Ejercicio19_REPASO.csproj" Id="3eb9016a-acd8-4f2a-8424-87672ddb23ea" />
+  <Project Path="Ejercicio20_BibliotecaDeClasesProyeccionSol/Ejercicio20_BibliotecaDeClasesProyeccionSol.csproj" Id="33e233d4-c557-4b1c-80a3-d96e2a98fdcc" />
   <Project Path="Ejercicio3CONDICIONALIF/Ejercicio3CONDICIONALIF.csproj" Id="36603e9c-9d3d-4db2-8c47-6b035e5e4467" />
   <Project Path="Ejercicio4_SWITCH/Ejercicio4_SWITCH.csproj" Id="1fd7667d-151c-4c53-9e87-f73b81d9c3ce" />
   <Project Path="Ejercicio5_CICLOWHILE/Ejercicio5_CICLOWHILE.csproj" Id="8c65ce58-96b1-43d8-8c1f-c69b68cc9b47" />

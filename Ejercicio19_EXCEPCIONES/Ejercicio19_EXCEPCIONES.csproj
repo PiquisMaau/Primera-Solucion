@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C3B551BF-8E81-424C-88DE-20C5DC7EA376}</ProjectGuid>
+    <ProjectGuid>{92B76E21-BD9F-4AEA-AB9C-1BC80707F842}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejemplo17_Clases</RootNamespace>
-    <AssemblyName>Ejemplo17_Clases</AssemblyName>
+    <RootNamespace>Ejercicio19_EXCEPCIONES</RootNamespace>
+    <AssemblyName>Ejercicio19_EXCEPCIONES</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClaseHijaInterfaceOperaciones.cs" />
-    <Compile Include="IOperaciones.cs" />
-    <Compile Include="IOperacionesV2.cs" />
-    <Compile Include="Operaciones.cs" />
-    <Compile Include="OperacionesAbstractas.cs" />
-    <Compile Include="OperacionesEstatica.cs" />
-    <Compile Include="OperacionesHijaAbstracta.cs" />
-    <Compile Include="Parciales.cs" />
-    <Compile Include="Parciales2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
