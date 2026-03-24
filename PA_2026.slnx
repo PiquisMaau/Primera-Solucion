@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="../../GestiónFarmacia/FarmaciaPresentacion/FarmaciaPresentacion.csproj" Id="70644f55-26e6-485f-92d4-10a1bc58a4eb" />
   <Project Path="Ejemplo2_OperadorCondicional/Ejemplo2_OperadorCondicional.csproj" Id="68cad5fa-8555-42e8-89e6-de4890e246a5" />
   <Project Path="Ejemplo7_CICLO-FOR/Ejercicio7_CICLO-FOR.csproj" Id="0982c863-a947-484d-b7c6-78e31b8c47bb" />
   <Project Path="Ejercicio10_MÉTODOS CON MULTIPLES PARÁMETROS/Ejercicio10_MÉTODOS CON MULTIPLES PARÁMETROS.csproj" Id="95b9aeaa-f250-4688-b249-19d16b6eacdc" />
