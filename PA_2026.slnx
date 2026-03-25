@@ -1,6 +1,4 @@
 <Solution>
-  <Project Path="../../../../../../Downloads/Ejercicios_CompuLab/Ejercicios_CompuLab/FarmaciaPresentacion/FarmaciaPresentacionV2.csproj" Id="92666b56-d245-4c7b-a6d8-fcfebd14dbda" />
-  <Project Path="../../GestiónFarmacia/FarmaciaPresentacion/FarmaciaPresentacion.csproj" Id="70644f55-26e6-485f-92d4-10a1bc58a4eb" />
   <Project Path="Ejemplo2_OperadorCondicional/Ejemplo2_OperadorCondicional.csproj" Id="68cad5fa-8555-42e8-89e6-de4890e246a5" />
   <Project Path="Ejemplo7_CICLO-FOR/Ejercicio7_CICLO-FOR.csproj" Id="0982c863-a947-484d-b7c6-78e31b8c47bb" />
   <Project Path="Ejercicio10_MÉTODOS CON MULTIPLES PARÁMETROS/Ejercicio10_MÉTODOS CON MULTIPLES PARÁMETROS.csproj" Id="95b9aeaa-f250-4688-b249-19d16b6eacdc" />
@@ -22,6 +20,8 @@
   <Project Path="Ejercicio8_FOR-EACH/Ejercicio8_FOR-EACH.csproj" Id="3ea9a797-b1e4-455c-9d37-74ca0ce51aae" />
   <Project Path="Ejercicio9_METODOS/Ejercicio9_METODOS.csproj" Id="e9a2c10f-23e1-48be-ab3e-6637063bb8c6" />
   <Project Path="Elercicio14_ClienteVisualBasic/Elercicio14_ClienteVisualBasic.vbproj" Id="3156a832-1ea6-4039-8314-0752c971eb93" />
+  <Project Path="FarmaciaPresentacionRECUPERADA/FarmaciaPresentacionV1RESCATE.csproj" />
+  <Project Path="FarmaciaPresentacionV2/FarmaciaPresentacionV2.csproj" Id="92666b56-d245-4c7b-a6d8-fcfebd14dbda" />
   <Project Path="Form1/Ejercicio11_FORM1.csproj" Id="882100c4-8b54-4bb7-b064-997b615efdee" />
   <Project Path="Test2NetCORE/Test2NetCORE.csproj" />
   <Project Path="Test3NETCORE/Test3NETCORE.csproj" />
